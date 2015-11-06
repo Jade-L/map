@@ -1,0 +1,47 @@
+body {
+  width: 60%;
+  max-width: 800px;
+  margin:auto;
+}
+
+#Titre {
+  float: right;
+  margin-right: 55%;
+  font-size: 2em;
+  font-weight: bold;
+  color: lightblue;
+}
+
+p {
+  text-align: right;
+  position: relative;
+}
+
+section {
+  float: left;
+  margin-right: auto;
+}
+
+aside {
+float: right;
+text-align: right;
+color: #068DB6;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bottomtxt {
+  font-size: 9px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
