@@ -16,13 +16,24 @@ p {
   text-align: right;
   position: relative;
 }
+/*avoid the top-margin to interfer with the float*/
+#Central::after,#Central::before {
+  display: table;
+  content: " ";
+}
+/*no floathing elements allods*/
+#Central::after {
+  clear: both;
+}
 
 section {
+  position: relative;
   float: left;
   margin-right: auto;
 }
 
 aside {
+  position: relative;
 float: right;
 text-align: right;
 color: #068DB6;
@@ -33,7 +44,6 @@ li {
 }
 
 footer {
-  position:absolute;
   bottom: 0;
   left: 0;
   right: 0;
